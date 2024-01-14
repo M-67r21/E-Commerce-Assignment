@@ -1,0 +1,189 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kumbh+Sans&family=Outfit&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+.main{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    color: hsl(220, 14%, 75%);
+    top: 0;
+    height: 10vh;
+    z-index: 1000;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid hsl(223, 64%, 98%);
+    padding-bottom:30px ;
+}
+.nav{
+    display: flex;
+    justify-content: space-between
+}
+ul{
+    justify-content: left;
+
+}
+ul li{
+    display: inline-block;
+    padding-left: 20px;
+    gap: 50px;
+}
+ul li a{
+    font-size: 15px;
+    text-decoration: none;
+}
+#women{
+    color: black;
+}
+.container{
+    margin-top: 60px;
+}
+ .prof{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+ }
+ .prof img{
+    padding-left: 30px;
+ }
+ .row1{
+    display: flex;
+    flex-direction: row;
+ }
+ .img{
+    width: 50vw;
+    margin-right: 100px;
+ }
+ .img img{
+    border-radius: 10px;
+ }
+ .img > .thumb{
+    padding-top: 30px;
+    display: flex;
+    gap: 30px;
+ }
+ .thumb > img{
+    border-radius: 10px;
+ }
+ /* #pic1 img{
+    background-color:  hsl(0, 0%, 100%);
+    border: 2px solid hsl(26, 100%, 55%);
+ } */
+ #pic1 {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+  }
+
+  #pic1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 97%;
+    height: 97%;
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust opacity as needed */
+    z-index: 1; 
+    border: 2px solid hsl(26, 100%, 55%);
+    border-radius: 10px;
+  }
+
+  #pic1 img {
+    display: block;
+    width: 100%;
+    height: 100;
+    z-index: 2; 
+    
+  }
+
+ .fall{
+    width: 50vw;
+    margin-top: 40px;  
+    padding: 0 50px 0 50px;  
+}
+.fall > h5{
+    color: hsl(26, 100%, 55%);
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+.fall > h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+    
+}
+.fall > p{
+    padding-bottom: 20px;
+}
+.price{
+    display: flex;
+    padding-bottom: 8px;
+}
+.price p{
+    padding-right: 20px;
+}
+.price > #one{
+    font-size: 18px;
+    font-weight: bold;
+}
+.price > #two{
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(25, 100%, 94%);
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 15px;
+}
+.canceled{
+    color: hsl(220, 14%, 75%);
+    text-decoration: line-through;
+    padding-bottom: 20px;
+}
+.foot{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.add{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* height: 40px; */
+    /* background-color: yellow; */
+    background-color:  hsl(223, 64%, 98%);
+    /* justify-content: space-e; */
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    /* padding-right: 50px; */
+    border-radius: 5px;
+}
+
+.add-number{
+    font-size: 18px;
+}
+.add h3{
+    color: hsl(26, 100%, 55%);
+}
+.add img{
+    padding-left: 10px;
+    padding-right: 7px;   
+}
+
+button{
+    width: 200px;
+    background-color: hsl(26, 100%, 55%);
+    height: 30px;
+    color:  hsl(0, 0%, 100%);
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    box-shadow: hsl(26, 100%, 55%) ;
+    
+}
